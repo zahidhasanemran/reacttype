@@ -1,0 +1,143 @@
+.loginWrapper {
+  background: #f5f5fc;
+}
+.Login {
+  /* background: linear-gradient(180deg, #ffca30 0%, #1652f0 100%) !important; */
+  background: #fff;
+  width: 500px;
+  max-width: 100%;
+  margin: 80px auto;
+  padding: 50px 30px;
+  border-radius: 7px;
+}
+.blurredScreen {
+}
+
+.submit button[type="button"],
+.submit button[type="submit"]:hover {
+  background: #fff;
+  border: 1px solid #1652f0;
+  color: #1652f0;
+}
+.submit button[type="button"],
+.submit button[type="submit"] {
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 6px 22px 7px 22px;
+  border-radius: 5px;
+  border: 1px solid #1652f0;
+  transition: 0.3s linear;
+  width: 100%;
+  background: #1652f0;
+  cursor: pointer;
+}
+
+span.float {
+  position: absolute;
+  left: 15px;
+  top: -9px;
+  display: inline-block;
+  background: #ffff;
+  padding: 0px 5px;
+}
+.getCode {
+  background: transparent !important;
+  color: #1652f0 !important;
+  border: 1px solid #1652f0 !important;
+  min-width: 110px !important;
+  padding: 15px 20px !important;
+}
+
+.firstChild {
+  margin-top: 40px;
+}
+
+.singleItem {
+  margin-bottom: 30px;
+  position: relative;
+}
+form .singleItem:nth-child(2) {
+  margin-bottom: 0px;
+  /* position: relative; */
+}
+form .p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5b616e;
+}
+.Login h4 span {
+  color: #1652f0;
+}
+.Login h4 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+.singleItem h6 {
+  display: inline-block;
+}
+.singleItem p {
+  color: red;
+}
+.singleItem input:active,
+.singleItem input:focus-within,
+.singleItem input:focus,
+.singleItem input:focus-visible {
+  border-color: #1652f0 !important;
+  outline: 0;
+}
+.singleItem span {
+  font-size: 12px;
+  line-height: 18px;
+  color: #5b616e;
+}
+
+.singleItem ul li span {
+  font-size: 18px;
+  line-height: 18px;
+  /* color: #5b616e; */
+}
+/* .singleItem input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 5px;
+  background: #fff;
+} */
+.singleItem button {
+  background: #1652f0;
+}
+.singleItem input {
+  background: #f6f6f6;
+}
+
+.countDownWrapper {
+  /* display: flex; */
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .Login {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .countDownWrapper {
+    display: block;
+  }
+  .countDownWrapper > div > div {
+    justify-content: space-between;
+    padding: 9px 0px;
+  }
+}
